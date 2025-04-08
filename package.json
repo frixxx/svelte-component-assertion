@@ -1,0 +1,13 @@
+{
+  "name": "svelte-component-assertion",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^3.1.1",
+    "vitest": "^3.1.1"
+  }
+}
