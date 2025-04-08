@@ -1,13 +1,23 @@
 {
-  "name": "svelte-component-assertion",
-  "version": "0.0.0",
-  "main": "src/index.js",
+  "name": "@frixxx/svelte-component-assertion",
+  "description": "A little assertion library to assert svelte component properties.",
+  "keywords": [
+    "svelte",
+    "assert"
+  ],
+  "homepage": "https://github.com/frixxx/svelte-component-assertion",
+  "bugs": "https://github.com/frixxx/svelte-component-assertion/issues",
+  "license": "MIT",
+  "version": "0.0.1",
+  "main": "dist/svelte-component-assertion.js",
   "type": "module",
   "scripts": {
+    "build": "vite build",
     "test": "vitest"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^3.1.1",
+    "vite": "^6.2.5",
     "vitest": "^3.1.1"
   }
 }
